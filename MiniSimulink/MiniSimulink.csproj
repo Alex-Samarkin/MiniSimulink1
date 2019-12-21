@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BlockControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BlockControl.Designer.cs">
+      <DependentUpon>BlockControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -64,8 +70,14 @@
     <Compile Include="Port.Designer.cs">
       <DependentUpon>Port.cs</DependentUpon>
     </Compile>
+    <Compile Include="Ports.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="BlockControl.resx">
+      <DependentUpon>BlockControl.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

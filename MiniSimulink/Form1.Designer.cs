@@ -63,16 +63,17 @@
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
             this.modelPropertyGrid = new System.Windows.Forms.PropertyGrid();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
             this.blockPropertyGrid = new System.Windows.Forms.PropertyGrid();
             this.splitContainer2 = new System.Windows.Forms.SplitContainer();
+            this.modelGroupBox = new System.Windows.Forms.GroupBox();
             this.tabControl2 = new System.Windows.Forms.TabControl();
             this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.tabPage4 = new System.Windows.Forms.TabPage();
             this.messageTextBox = new System.Windows.Forms.TextBox();
+            this.tabPage4 = new System.Windows.Forms.TabPage();
             this.debugTextBox = new System.Windows.Forms.TextBox();
-            this.modelGroupBox = new System.Windows.Forms.GroupBox();
+            this.blockControl1 = new MiniSimulink.BlockControl();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
@@ -85,6 +86,7 @@
             this.splitContainer2.Panel1.SuspendLayout();
             this.splitContainer2.Panel2.SuspendLayout();
             this.splitContainer2.SuspendLayout();
+            this.modelGroupBox.SuspendLayout();
             this.tabControl2.SuspendLayout();
             this.tabPage3.SuspendLayout();
             this.tabPage4.SuspendLayout();
@@ -309,17 +311,17 @@
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
+            // modelPropertyGrid
+            // 
+            resources.ApplyResources(this.modelPropertyGrid, "modelPropertyGrid");
+            this.modelPropertyGrid.Name = "modelPropertyGrid";
+            // 
             // tabPage2
             // 
             this.tabPage2.Controls.Add(this.blockPropertyGrid);
             resources.ApplyResources(this.tabPage2, "tabPage2");
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.UseVisualStyleBackColor = true;
-            // 
-            // modelPropertyGrid
-            // 
-            resources.ApplyResources(this.modelPropertyGrid, "modelPropertyGrid");
-            this.modelPropertyGrid.Name = "modelPropertyGrid";
             // 
             // blockPropertyGrid
             // 
@@ -339,6 +341,13 @@
             // 
             this.splitContainer2.Panel2.Controls.Add(this.tabControl2);
             // 
+            // modelGroupBox
+            // 
+            this.modelGroupBox.Controls.Add(this.blockControl1);
+            resources.ApplyResources(this.modelGroupBox, "modelGroupBox");
+            this.modelGroupBox.Name = "modelGroupBox";
+            this.modelGroupBox.TabStop = false;
+            // 
             // tabControl2
             // 
             this.tabControl2.Controls.Add(this.tabPage3);
@@ -354,19 +363,19 @@
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.UseVisualStyleBackColor = true;
             // 
-            // tabPage4
-            // 
-            this.tabPage4.Controls.Add(this.debugTextBox);
-            resources.ApplyResources(this.tabPage4, "tabPage4");
-            this.tabPage4.Name = "tabPage4";
-            this.tabPage4.UseVisualStyleBackColor = true;
-            // 
             // messageTextBox
             // 
             this.messageTextBox.BackColor = System.Drawing.SystemColors.Info;
             resources.ApplyResources(this.messageTextBox, "messageTextBox");
             this.messageTextBox.ForeColor = System.Drawing.SystemColors.InfoText;
             this.messageTextBox.Name = "messageTextBox";
+            // 
+            // tabPage4
+            // 
+            this.tabPage4.Controls.Add(this.debugTextBox);
+            resources.ApplyResources(this.tabPage4, "tabPage4");
+            this.tabPage4.Name = "tabPage4";
+            this.tabPage4.UseVisualStyleBackColor = true;
             // 
             // debugTextBox
             // 
@@ -375,14 +384,18 @@
             this.debugTextBox.ForeColor = System.Drawing.SystemColors.InfoText;
             this.debugTextBox.Name = "debugTextBox";
             // 
-            // modelGroupBox
+            // blockControl1
             // 
-            resources.ApplyResources(this.modelGroupBox, "modelGroupBox");
-            this.modelGroupBox.Name = "modelGroupBox";
-            this.modelGroupBox.TabStop = false;
+            this.blockControl1.BlockName = "Block";
+            this.blockControl1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.blockControl1.CurrentTime = 0D;
+            resources.ApplyResources(this.blockControl1, "blockControl1");
+            this.blockControl1.Name = "blockControl1";
+            this.blockControl1.Step = 0.01D;
             // 
             // Form1
             // 
+            this.AllowDrop = true;
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.splitContainer1);
@@ -404,6 +417,7 @@
             this.splitContainer2.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer2)).EndInit();
             this.splitContainer2.ResumeLayout(false);
+            this.modelGroupBox.ResumeLayout(false);
             this.tabControl2.ResumeLayout(false);
             this.tabPage3.ResumeLayout(false);
             this.tabPage3.PerformLayout();
@@ -460,6 +474,7 @@
         private System.Windows.Forms.TabPage tabPage4;
         private System.Windows.Forms.TextBox debugTextBox;
         private System.Windows.Forms.GroupBox modelGroupBox;
+        private BlockControl blockControl1;
     }
 }
 

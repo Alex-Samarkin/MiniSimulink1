@@ -171,7 +171,7 @@
     <value>Ctrl+N</value>
   </data>
   <data name="newToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>32, 19</value>
+    <value>146, 22</value>
   </data>
   <data name="newToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;New</value>
@@ -199,13 +199,13 @@
     <value>Ctrl+O</value>
   </data>
   <data name="openToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>32, 19</value>
+    <value>146, 22</value>
   </data>
   <data name="openToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;Open</value>
   </data>
   <data name="toolStripSeparator.Size" type="System.Drawing.Size, System.Drawing">
-    <value>6, 6</value>
+    <value>143, 6</value>
   </data>
   <data name="saveToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -230,19 +230,19 @@
     <value>Ctrl+S</value>
   </data>
   <data name="saveToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>32, 19</value>
+    <value>146, 22</value>
   </data>
   <data name="saveToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;Save</value>
   </data>
   <data name="saveAsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>32, 19</value>
+    <value>146, 22</value>
   </data>
   <data name="saveAsToolStripMenuItem.Text" xml:space="preserve">
     <value>Save &amp;As</value>
   </data>
   <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>6, 6</value>
+    <value>143, 6</value>
   </data>
   <data name="printToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -266,7 +266,7 @@
     <value>Ctrl+P</value>
   </data>
   <data name="printToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>32, 19</value>
+    <value>146, 22</value>
   </data>
   <data name="printToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;Print</value>
@@ -288,16 +288,16 @@
     <value>Magenta</value>
   </data>
   <data name="printPreviewToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>32, 19</value>
+    <value>146, 22</value>
   </data>
   <data name="printPreviewToolStripMenuItem.Text" xml:space="preserve">
     <value>Print Pre&amp;view</value>
   </data>
   <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>6, 6</value>
+    <value>143, 6</value>
   </data>
   <data name="exitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>32, 19</value>
+    <value>146, 22</value>
   </data>
   <data name="exitToolStripMenuItem.Text" xml:space="preserve">
     <value>E&amp;xit</value>
@@ -312,7 +312,7 @@
     <value>Ctrl+Z</value>
   </data>
   <data name="undoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>32, 19</value>
+    <value>144, 22</value>
   </data>
   <data name="undoToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;Undo</value>
@@ -321,13 +321,13 @@
     <value>Ctrl+Y</value>
   </data>
   <data name="redoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>32, 19</value>
+    <value>144, 22</value>
   </data>
   <data name="redoToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;Redo</value>
   </data>
   <data name="toolStripSeparator3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>6, 6</value>
+    <value>141, 6</value>
   </data>
   <data name="cutToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -349,7 +349,7 @@
     <value>Ctrl+X</value>
   </data>
   <data name="cutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>32, 19</value>
+    <value>144, 22</value>
   </data>
   <data name="cutToolStripMenuItem.Text" xml:space="preserve">
     <value>Cu&amp;t</value>
@@ -375,7 +375,7 @@
     <value>Ctrl+C</value>
   </data>
   <data name="copyToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>32, 19</value>
+    <value>144, 22</value>
   </data>
   <data name="copyToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;Copy</value>
@@ -403,16 +403,16 @@
     <value>Ctrl+V</value>
   </data>
   <data name="pasteToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>32, 19</value>
+    <value>144, 22</value>
   </data>
   <data name="pasteToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;Paste</value>
   </data>
   <data name="toolStripSeparator4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>6, 6</value>
+    <value>141, 6</value>
   </data>
   <data name="selectAllToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>32, 19</value>
+    <value>144, 22</value>
   </data>
   <data name="selectAllToolStripMenuItem.Text" xml:space="preserve">
     <value>Select &amp;All</value>
@@ -424,13 +424,13 @@
     <value>&amp;Tools</value>
   </data>
   <data name="customizeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>32, 19</value>
+    <value>130, 22</value>
   </data>
   <data name="customizeToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;Customize</value>
   </data>
   <data name="optionsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>32, 19</value>
+    <value>130, 22</value>
   </data>
   <data name="optionsToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;Options</value>
@@ -442,28 +442,28 @@
     <value>&amp;Help</value>
   </data>
   <data name="contentsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>32, 19</value>
+    <value>122, 22</value>
   </data>
   <data name="contentsToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;Contents</value>
   </data>
   <data name="indexToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>32, 19</value>
+    <value>122, 22</value>
   </data>
   <data name="indexToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;Index</value>
   </data>
   <data name="searchToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>32, 19</value>
+    <value>122, 22</value>
   </data>
   <data name="searchToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;Search</value>
   </data>
   <data name="toolStripSeparator5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>6, 6</value>
+    <value>119, 6</value>
   </data>
   <data name="aboutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>32, 19</value>
+    <value>122, 22</value>
   </data>
   <data name="aboutToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;About...</value>
@@ -569,6 +569,33 @@
   </data>
   <data name="splitContainer2.Orientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
     <value>Horizontal</value>
+  </data>
+  <data name="blockControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>84, 88</value>
+  </data>
+  <data name="blockControl1.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>24, 24</value>
+  </data>
+  <data name="blockControl1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 6, 3, 6</value>
+  </data>
+  <data name="blockControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 93</value>
+  </data>
+  <data name="blockControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;blockControl1.Name" xml:space="preserve">
+    <value>blockControl1</value>
+  </data>
+  <data name="&gt;&gt;blockControl1.Type" xml:space="preserve">
+    <value>MiniSimulink.BlockControl, MiniSimulink, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;blockControl1.Parent" xml:space="preserve">
+    <value>modelGroupBox</value>
+  </data>
+  <data name="&gt;&gt;blockControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="modelGroupBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
@@ -762,45 +789,6 @@
   <data name="&gt;&gt;tabPage1.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;blockPropertyGrid.Name" xml:space="preserve">
-    <value>blockPropertyGrid</value>
-  </data>
-  <data name="&gt;&gt;blockPropertyGrid.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PropertyGrid, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;blockPropertyGrid.Parent" xml:space="preserve">
-    <value>tabPage2</value>
-  </data>
-  <data name="&gt;&gt;blockPropertyGrid.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="tabPage2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 22</value>
-  </data>
-  <data name="tabPage2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
-  </data>
-  <data name="tabPage2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>265, 552</value>
-  </data>
-  <data name="tabPage2.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="tabPage2.Text" xml:space="preserve">
-    <value>Свойства компонента</value>
-  </data>
-  <data name="&gt;&gt;tabPage2.Name" xml:space="preserve">
-    <value>tabPage2</value>
-  </data>
-  <data name="&gt;&gt;tabPage2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tabPage2.Parent" xml:space="preserve">
-    <value>tabControl1</value>
-  </data>
-  <data name="&gt;&gt;tabPage2.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
   <data name="modelPropertyGrid.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
@@ -825,6 +813,45 @@
   <data name="&gt;&gt;modelPropertyGrid.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <data name="&gt;&gt;blockPropertyGrid.Name" xml:space="preserve">
+    <value>blockPropertyGrid</value>
+  </data>
+  <data name="&gt;&gt;blockPropertyGrid.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PropertyGrid, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;blockPropertyGrid.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;blockPropertyGrid.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabPage2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tabPage2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabPage2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 552</value>
+  </data>
+  <data name="tabPage2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tabPage2.Text" xml:space="preserve">
+    <value>Свойства компонента</value>
+  </data>
+  <data name="&gt;&gt;tabPage2.Name" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;tabPage2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPage2.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;tabPage2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
   <data name="blockPropertyGrid.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
@@ -832,7 +859,7 @@
     <value>3, 3</value>
   </data>
   <data name="blockPropertyGrid.Size" type="System.Drawing.Size, System.Drawing">
-    <value>259, 546</value>
+    <value>211, 546</value>
   </data>
   <data name="blockPropertyGrid.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -888,6 +915,33 @@
   <data name="&gt;&gt;tabPage3.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <data name="messageTextBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="messageTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="messageTextBox.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="messageTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>923, 73</value>
+  </data>
+  <data name="messageTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;messageTextBox.Name" xml:space="preserve">
+    <value>messageTextBox</value>
+  </data>
+  <data name="&gt;&gt;messageTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;messageTextBox.Parent" xml:space="preserve">
+    <value>tabPage3</value>
+  </data>
+  <data name="&gt;&gt;messageTextBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <data name="&gt;&gt;debugTextBox.Name" xml:space="preserve">
     <value>debugTextBox</value>
   </data>
@@ -926,33 +980,6 @@
   </data>
   <data name="&gt;&gt;tabPage4.ZOrder" xml:space="preserve">
     <value>1</value>
-  </data>
-  <data name="messageTextBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="messageTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
-  </data>
-  <data name="messageTextBox.Multiline" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="messageTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>923, 73</value>
-  </data>
-  <data name="messageTextBox.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;messageTextBox.Name" xml:space="preserve">
-    <value>messageTextBox</value>
-  </data>
-  <data name="&gt;&gt;messageTextBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;messageTextBox.Parent" xml:space="preserve">
-    <value>tabPage3</value>
-  </data>
-  <data name="&gt;&gt;messageTextBox.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="debugTextBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>

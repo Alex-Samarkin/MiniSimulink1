@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.ComponentModel;
 using System.Diagnostics;
 using System.Linq;
@@ -68,13 +67,5 @@ namespace MiniSimulink
 
         public string FormattedValue => $"{PortName}/{PortDescription} >>> {Value} [{Measure}]";
         public string FullFormattedValue => $"{PortName}/{PortDescription}: {Value} [{Measure}] Scale: {Scale} Scaled: {Scaled}";
-    }
-
-    public class Ports : Component
-    {
-        [DisplayName("")]
-        [Description("")]
-        public List<Port> ItemsList { get; set; } = new List<Port>();
-
     }
 }
