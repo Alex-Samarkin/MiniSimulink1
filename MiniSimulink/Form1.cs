@@ -45,12 +45,24 @@ namespace MiniSimulink
             ModelManager.BlockPropertyGrid.SelectedObject = Ports;
             ModelManager.WriteDebug("редактор на массив портов");
 
+            this.blockControl1.Input.ItemsList.Add(new Port());
+            this.blockControl1.Output.ItemsList.Add(new Port());
+
+            ModelManager.BlockPropertyGrid.SelectedObject = this.blockControl1;
+            ModelManager.WriteDebug("редактор на абстрактный блок");
+
+
         }
 
         public ModelManager ModelManager { get; set; } = new ModelManager();
         public Port p = new Port();
         private List<Port> ports = new List<Port>();
         public Ports Ports = new Ports();
-        
-     }
+
+        private void genericBlockToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ModelManager.AppendAndPlaceBlock(new BlockControl());
+            ModelManager.WriteMessage("Добален прототип блока (блок-заглушка)");
+        }
+    }
 }

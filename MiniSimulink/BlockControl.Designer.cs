@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.inputPorts = new System.Windows.Forms.Label();
             this.outputPorts = new System.Windows.Forms.Label();
+            this.inputPorts = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -46,16 +46,6 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "groupBox1";
             // 
-            // inputPorts
-            // 
-            this.inputPorts.AutoSize = true;
-            this.inputPorts.Dock = System.Windows.Forms.DockStyle.Top;
-            this.inputPorts.Location = new System.Drawing.Point(3, 16);
-            this.inputPorts.Name = "inputPorts";
-            this.inputPorts.Size = new System.Drawing.Size(21, 13);
-            this.inputPorts.TabIndex = 0;
-            this.inputPorts.Text = "in>";
-            // 
             // outputPorts
             // 
             this.outputPorts.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
@@ -67,6 +57,16 @@
             this.outputPorts.Text = "out>";
             this.outputPorts.TextAlign = System.Drawing.ContentAlignment.BottomRight;
             // 
+            // inputPorts
+            // 
+            this.inputPorts.AutoSize = true;
+            this.inputPorts.Dock = System.Windows.Forms.DockStyle.Top;
+            this.inputPorts.Location = new System.Drawing.Point(3, 16);
+            this.inputPorts.Name = "inputPorts";
+            this.inputPorts.Size = new System.Drawing.Size(21, 13);
+            this.inputPorts.TabIndex = 0;
+            this.inputPorts.Text = "in>";
+            // 
             // BlockControl
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -77,6 +77,7 @@
             this.Name = "BlockControl";
             this.Padding = new System.Windows.Forms.Padding(3, 6, 3, 6);
             this.Size = new System.Drawing.Size(190, 93);
+            this.Paint += new System.Windows.Forms.PaintEventHandler(this.BlockControl_Paint);
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.BlockControl_MouseDown);
             this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.BlockControl_MouseMove);
             this.MouseUp += new System.Windows.Forms.MouseEventHandler(this.BlockControl_MouseUp);

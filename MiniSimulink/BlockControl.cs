@@ -37,11 +37,26 @@ namespace MiniSimulink
             /// Parameters - константы
             /// CurrentTime - текущее время, если требуетсяя работа в абсолютном значении
             /// Step - шаг по времени
-            /// используются только параметры блока
+            /// используются только параметры блока - значения портов
         }
 
         public double CurrentTime { get; set; } = 0;
         public double Step { get; set; } = 0.01;
+
+        [Category("Идентификаторы блока")]
+        [DisplayName("Номер блока")]
+        [Description("Номер блока в списке блоков. Нумеруется менеджером модели при вставке блока. Гарантируется, что при вставке позлние блоки получают большие номера")]
+        public int Id { get; set; } = 0;
+
+        [Category("Идентификаторы блока")]
+        [DisplayName("Приоритет блока")]
+        [Description("Приоритет определяет порядок расчета и определяется типом блока. Меньший приоритет рассчитывается раньше. Приоритет определяется преимущественно типом блока. Например, константы с приоритетом 100 будут вычислены раньше, чем блок усиления с приоритетом 1000.")]
+        public int Priority { get; set; } = 1000;
+
+
+
+
+        #region MoveBlockWithMouse
 
         //точка перемещения
         Point DownPoint;
@@ -52,7 +67,7 @@ namespace MiniSimulink
 
         private void BlockControl_MouseDown(object sender, MouseEventArgs e)
         {
-            if (e.Button == System.Windows.Forms.MouseButtons.Left)
+            if (e.Button == MouseButtons.Left)
             {
                 MouseDownLocation = e.Location;
             }
@@ -65,11 +80,22 @@ namespace MiniSimulink
 
         private void BlockControl_MouseMove(object sender, MouseEventArgs e)
         {
-            if (e.Button == System.Windows.Forms.MouseButtons.Left)
+            if (e.Button == MouseButtons.Left)
             {
                 Left = e.X + Left - MouseDownLocation.X;
                 Top = e.Y + Top - MouseDownLocation.Y;
             }
+        }
+
+        #endregion
+
+
+
+        private void BlockControl_Paint(object sender, PaintEventArgs e)
+        {
+            this.groupBox1.Text = $"{BlockName} (Id{Id}/Prior{Priority})";
+            this.inputPorts.Text = $"in {Input.ItemsList.Count} >";
+            this.outputPorts.Text = $"out {Output.ItemsList.Count} >";
         }
     }
 }

@@ -68,12 +68,15 @@
             this.blockPropertyGrid = new System.Windows.Forms.PropertyGrid();
             this.splitContainer2 = new System.Windows.Forms.SplitContainer();
             this.modelGroupBox = new System.Windows.Forms.GroupBox();
+            this.blockControl1 = new MiniSimulink.BlockControl();
             this.tabControl2 = new System.Windows.Forms.TabControl();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.messageTextBox = new System.Windows.Forms.TextBox();
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.debugTextBox = new System.Windows.Forms.TextBox();
-            this.blockControl1 = new MiniSimulink.BlockControl();
+            this.blockToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.addToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.genericBlockToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
@@ -99,7 +102,8 @@
             this.fileToolStripMenuItem,
             this.editToolStripMenuItem,
             this.toolsToolStripMenuItem,
-            this.helpToolStripMenuItem});
+            this.helpToolStripMenuItem,
+            this.blockToolStripMenuItem});
             resources.ApplyResources(this.menuStrip1, "menuStrip1");
             this.menuStrip1.Name = "menuStrip1";
             // 
@@ -348,6 +352,15 @@
             this.modelGroupBox.Name = "modelGroupBox";
             this.modelGroupBox.TabStop = false;
             // 
+            // blockControl1
+            // 
+            this.blockControl1.BlockName = "Block";
+            this.blockControl1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.blockControl1.CurrentTime = 0D;
+            resources.ApplyResources(this.blockControl1, "blockControl1");
+            this.blockControl1.Name = "blockControl1";
+            this.blockControl1.Step = 0.01D;
+            // 
             // tabControl2
             // 
             this.tabControl2.Controls.Add(this.tabPage3);
@@ -384,14 +397,25 @@
             this.debugTextBox.ForeColor = System.Drawing.SystemColors.InfoText;
             this.debugTextBox.Name = "debugTextBox";
             // 
-            // blockControl1
+            // blockToolStripMenuItem
             // 
-            this.blockControl1.BlockName = "Block";
-            this.blockControl1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.blockControl1.CurrentTime = 0D;
-            resources.ApplyResources(this.blockControl1, "blockControl1");
-            this.blockControl1.Name = "blockControl1";
-            this.blockControl1.Step = 0.01D;
+            this.blockToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.addToolStripMenuItem});
+            this.blockToolStripMenuItem.Name = "blockToolStripMenuItem";
+            resources.ApplyResources(this.blockToolStripMenuItem, "blockToolStripMenuItem");
+            // 
+            // addToolStripMenuItem
+            // 
+            this.addToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.genericBlockToolStripMenuItem});
+            this.addToolStripMenuItem.Name = "addToolStripMenuItem";
+            resources.ApplyResources(this.addToolStripMenuItem, "addToolStripMenuItem");
+            // 
+            // genericBlockToolStripMenuItem
+            // 
+            this.genericBlockToolStripMenuItem.Name = "genericBlockToolStripMenuItem";
+            resources.ApplyResources(this.genericBlockToolStripMenuItem, "genericBlockToolStripMenuItem");
+            this.genericBlockToolStripMenuItem.Click += new System.EventHandler(this.genericBlockToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -475,6 +499,9 @@
         private System.Windows.Forms.TextBox debugTextBox;
         private System.Windows.Forms.GroupBox modelGroupBox;
         private BlockControl blockControl1;
+        private System.Windows.Forms.ToolStripMenuItem blockToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem addToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem genericBlockToolStripMenuItem;
     }
 }
 
