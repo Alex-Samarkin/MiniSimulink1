@@ -78,6 +78,7 @@
             this.Padding = new System.Windows.Forms.Padding(3, 6, 3, 6);
             this.Size = new System.Drawing.Size(190, 93);
             this.Paint += new System.Windows.Forms.PaintEventHandler(this.BlockControl_Paint);
+            this.DoubleClick += new System.EventHandler(this.BlockControl_DoubleClick);
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.BlockControl_MouseDown);
             this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.BlockControl_MouseMove);
             this.MouseUp += new System.Windows.Forms.MouseEventHandler(this.BlockControl_MouseUp);

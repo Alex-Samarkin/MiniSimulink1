@@ -97,5 +97,14 @@ namespace MiniSimulink
             this.inputPorts.Text = $"in {Input.ItemsList.Count} >";
             this.outputPorts.Text = $"out {Output.ItemsList.Count} >";
         }
+
+        private void BlockControl_DoubleClick(object sender, EventArgs e)
+        {
+            BlockForm blockForm = new BlockForm();
+            blockForm.Setup(this);
+            blockForm.Show();
+        }
+
+
     }
 }

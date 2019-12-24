@@ -150,6 +150,17 @@ namespace MiniSimulink
             }
         }
 
+        public void JitterBlock(BlockControl bc,int jitter = 20)
+        {
+            Random rnd = new Random();
+
+            int dx = rnd.Next(jitter / 2, jitter * 2);
+            int dy = rnd.Next(jitter / 2, jitter * 2);
+
+            bc.Location = new Point(bc.Location.X + dx,bc.Location.Y+dy);
+            bc.Invalidate();
+        }
+
         /// <summary>
         /// 
         /// </summary>
@@ -158,6 +169,7 @@ namespace MiniSimulink
         {
             AppendBlock(bc);
             PlaceBlock(bc);
+            JitterBlock(bc);
         }
 
     }
